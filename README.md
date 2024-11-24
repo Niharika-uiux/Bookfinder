@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Code Structure
+/src
+App.js: Main application component.
+SearchBar.js: Component for user input.
+BookList.js: Component to display the list of books.
+BookCard.js: Reusable component for individual book details.
+styles.css: Custom CSS for additional styling.
+Challenges Faced
+Handling cases where API returns incomplete data (e.g., missing book covers).
+Optimizing the UI for mobile and desktop users.
+Future Enhancements
+Add filtering by author, subject, or publication year.
+Allow users to save favorite books.
+Implement pagination for large search results.
+Author
+>> Niharika Gurram
+>> https://www.linkedin.com/in/niharika-gurram-19700226a/
+>> https://linktr.ee/niharika9_portfolio
+>> https://github.com/Niharika-uiux/Bookfinder
